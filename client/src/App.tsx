@@ -28,7 +28,7 @@ function App({ onLoadEmployees, employees }: AppProps) {
   }, [onLoadEmployees]);
 
   return (
-    <div>
+    <div style={{ padding: '20px' }}>
       <EmployeeForm
         onLoadEmployees={onLoadEmployees}
         onSuccess={displayNotification}

@@ -21,7 +21,7 @@ function EmployeeForm({ onLoadEmployees, onSuccess }: EmployeeFormProps) {
     <Form
       form={form}
       labelCol={{ span: 2 }}
-      wrapperCol={{ span: 12 }}
+      wrapperCol={{ span: 18 }}
       onFinish={onFinish}
     >
       <Form.Item
@@ -59,9 +59,9 @@ function EmployeeForm({ onLoadEmployees, onSuccess }: EmployeeFormProps) {
       >
         <Input />
       </Form.Item>
-      <Form.Item wrapperCol={{ offset: 12, span: 16 }}>
+      <Form.Item wrapperCol={{ offset: 19, span: 16 }}>
         <Button type="primary" htmlType="submit">
-          Create
+          Add
         </Button>
       </Form.Item>
     </Form>

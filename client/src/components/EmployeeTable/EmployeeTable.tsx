@@ -79,7 +79,7 @@ function EmployeeTable({
       dataSource={employees}
       pagination={false}
       bordered
-      scroll={{ x: 1400, y: 450 }}
+      scroll={{ x: 1400, y: 400 }}
     />
   );
 }
